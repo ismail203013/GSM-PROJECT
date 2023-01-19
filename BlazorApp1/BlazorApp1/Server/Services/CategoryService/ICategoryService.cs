@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BlazorApp1.Client.Services.CategoryService
+namespace BlazorApp1.Server.Services.CategoryService
 {
     public interface ICategoryService
     {
-         List<Category> Categories { get; set; }
-         Task LoadCategories();
+        Task<List<Category>> GetCategories();
     }
 }

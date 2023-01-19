@@ -17,8 +17,8 @@
 
 
 @code {
-     protected override void OnInitialized()
+     protected override async Task OnInitializedAsync()
     {
-        CategoryService.LoadCategories(); //loading all the categories
+       await  CategoryService.LoadCategories(); //loading all the categories
     }
 }

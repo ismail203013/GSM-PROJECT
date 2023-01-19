@@ -114,9 +114,9 @@ using BlazorApp1.Client.Services.CategoryService;
 #nullable restore
 #line 19 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Shop.razor"
        
-     protected override void OnInitialized()
+     protected override async Task OnInitializedAsync()
     {
-        CategoryService.LoadCategories(); //loading all the categories
+       await  CategoryService.LoadCategories(); //loading all the categories
     }
 
 #line default
