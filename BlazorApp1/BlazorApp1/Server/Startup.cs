@@ -26,7 +26,7 @@ namespace BlazorApp1.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICategoryService, CategoryService>(); //registering the category service
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
