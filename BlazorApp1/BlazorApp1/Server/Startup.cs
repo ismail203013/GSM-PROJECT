@@ -1,4 +1,5 @@
 using BlazorApp1.Server.Services.CategoryService;
+using BlazorApp1.Server.Services.ProductService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,7 @@ namespace BlazorApp1.Server
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddScoped<ICategoryService, CategoryService>(); //registering the category service
+            services.AddScoped<IProductService, ProductService>(); //registering the category service
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
