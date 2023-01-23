@@ -20,8 +20,20 @@ namespace BlazorApp1.Client.Services.ProductService
         }
         public async Task LoadProducts(string categoryUrl = null)
         {
-            Products = await _http.GetFromJsonAsync<List<Product>>($"api/Product/{categoryUrl}");
+            if (categoryUrl == null)
+            {
+               Products = await _http.GetFromJsonAsync<List<Product>>("api/Product");
+            }
+            else
+            {
+                Products = await _http.GetFromJsonAsync<List<Product>>($"api/Product/Category/{categoryUrl}");
+            }
             OnChange.Invoke();
+        }
+
+        public async Task<Product> GetProduct(int id)
+        {
+            return await _http.GetFromJsonAsync<Product>($"api/Product/{id}");
         }
     }
 }

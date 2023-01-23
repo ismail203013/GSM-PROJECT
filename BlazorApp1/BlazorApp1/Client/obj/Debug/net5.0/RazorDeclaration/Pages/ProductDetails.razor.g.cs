@@ -103,7 +103,7 @@ using BlazorApp1.Client.Services.CategoryService;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/product/{id}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/product/{id:int}")]
     public partial class ProductDetails : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -114,19 +114,19 @@ using BlazorApp1.Client.Services.CategoryService;
 #nullable restore
 #line 21 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
        
-    private Product product = null;
+    private Product product = new Product();
 
     [Parameter]
-    public string Id { get; set; }
+    public int Id { get; set; }
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
         //extra security making sure products are loaded
-        if (ProductService.Products == null || ProductService.Products.Count == 0)
-        {
-            ProductService.LoadProducts();
-        }
-        product = ProductService.Products.FirstOrDefault(p => p.Id == Int32.Parse(Id)); //else pass the id
+        // if (ProductService.Products == null || ProductService.Products.Count == 0)
+        //{
+        //  ProductService.LoadProducts();
+        // }
+        product = await ProductService.GetProduct(Id); //Products.FirstOrDefault(p => p.Id == Int32.Parse(Id)); //else pass the id
     }
 
 #line default
