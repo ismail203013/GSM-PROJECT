@@ -113,7 +113,7 @@ using BlazorApp1.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Index.razor"
+#line 19 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Index.razor"
  
     [Parameter]
 
@@ -121,8 +121,12 @@ using BlazorApp1.Client.Services.CategoryService;
 
     private Category category = null;
 
-    protected override void OnParametersSet()
+    protected override async Task OnParametersSetAsync()
     {
+
+        //calling the product service 
+      await  ProductService.LoadProducts(CategoryUrl);
+
         if (CategoryUrl != null) //making sure category url is not null
         {
 
@@ -140,6 +144,7 @@ using BlazorApp1.Client.Services.CategoryService;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IProductService ProductService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICategoryService CategoryService { get; set; }
     }
 }

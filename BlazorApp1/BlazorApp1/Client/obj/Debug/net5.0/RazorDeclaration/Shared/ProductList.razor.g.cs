@@ -103,7 +103,7 @@ using BlazorApp1.Client.Services.CategoryService;
 #line default
 #line hidden
 #nullable disable
-    public partial class ProductList : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ProductList : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,16 +111,21 @@ using BlazorApp1.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\ProductList.razor"
+#line 31 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\ProductList.razor"
        
-    [Parameter]
+    // [Parameter]
 
     //passing category id 
-    public int? CategoryId { get; set; } = null; 
+    // public int? CategoryId { get; set; } = null; 
 
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-       await  ProductService.LoadProducts(); // loading in the list of products
+        //await  ProductService.LoadProducts(); // loading in the list of products
+        ProductService.OnChange += StateHasChanged; //reloads products if any change is made
+    }
+    public  void Dispose()
+    {
+        ProductService.OnChange -= StateHasChanged;
     }
 
 #line default

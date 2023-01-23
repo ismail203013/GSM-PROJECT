@@ -1,11 +1,12 @@
 ﻿@page "/"
 @page "/{categoryurl}"
 @inject ICategoryService CategoryService;
+@inject IProductService ProductService;
 
 @if (category != null)
 {
     <h1>Welceome to the @category.Name section!</h1>
-    <ProductList CategoryId="@category.Id"/>
+    <ProductList/>
 }
 else
 {
@@ -22,8 +23,12 @@ else
 
     private Category category = null;
 
-    protected override void OnParametersSet()
+    protected override async Task OnParametersSetAsync()
     {
+
+        //calling the product service 
+      await  ProductService.LoadProducts(CategoryUrl);
+
         if (CategoryUrl != null) //making sure category url is not null
         {
 

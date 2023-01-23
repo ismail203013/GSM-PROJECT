@@ -1,12 +1,23 @@
-﻿using BlazorApp1.Shared;
+﻿using BlazorApp1.Server.Services.CategoryService;
+using BlazorApp1.Shared;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace BlazorApp1.Server.Services.ProductService
 {
     public class ProductService : IProductService
     {
+        private readonly ICategoryService _categoryService;
+
+        public ProductService(ICategoryService categoryService)
+        {
+            _categoryService = categoryService;
+        }
+
      //methods   
+     
+
         public async Task<List<Product>> GetAllProducts()
         {
             return Products;
@@ -14,13 +25,16 @@ namespace BlazorApp1.Server.Services.ProductService
 
         public async Task<Product> GetProduct(int id)
         {
-            throw new System.NotImplementedException();
+            Product product = Products.FirstOrDefault(p => p.Id == id);
+            return product;
         }
 
         //returns product by category url
         public async Task<List<Product>> GetProductsByCategory(string categoryUrl)
         {
-            throw new System.NotImplementedException();
+            Category category = await _categoryService.GetCategoryByUrl(categoryUrl);
+            return Products.Where(p => p.CategoryId == category.Id).ToList();
+            //add try catch blocks for error handling
         }
         public List<Product> Products { get; set; } = new List<Product>
 
