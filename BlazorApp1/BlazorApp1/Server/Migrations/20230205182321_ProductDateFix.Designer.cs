@@ -4,14 +4,16 @@ using BlazorApp1.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BlazorApp1.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230205182321_ProductDateFix")]
+    partial class ProductDateFix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -60,43 +62,6 @@ namespace BlazorApp1.Server.Migrations
                             Icon = "phone",
                             Name = "Phones",
                             Url = "phones"
-                        });
-                });
-
-            modelBuilder.Entity("BlazorApp1.Shared.Edition", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Editions");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Red"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Black"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Blue"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "White"
                         });
                 });
 
@@ -172,43 +137,6 @@ namespace BlazorApp1.Server.Migrations
                         });
                 });
 
-            modelBuilder.Entity("EditionProduct", b =>
-                {
-                    b.Property<int>("EditionsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("EditionsId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("EditionProduct");
-
-                    b.HasData(
-                        new
-                        {
-                            EditionsId = 1,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 2,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 3,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 4,
-                            ProductsId = 11
-                        });
-                });
-
             modelBuilder.Entity("BlazorApp1.Shared.Product", b =>
                 {
                     b.HasOne("BlazorApp1.Shared.Category", "Category")
@@ -218,21 +146,6 @@ namespace BlazorApp1.Server.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("EditionProduct", b =>
-                {
-                    b.HasOne("BlazorApp1.Shared.Edition", null)
-                        .WithMany()
-                        .HasForeignKey("EditionsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BlazorApp1.Shared.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

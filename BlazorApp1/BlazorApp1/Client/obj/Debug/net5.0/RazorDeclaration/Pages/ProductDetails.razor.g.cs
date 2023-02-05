@@ -112,7 +112,7 @@ using BlazorApp1.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 21 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
+#line 33 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
        
     private Product product = new Product();
 

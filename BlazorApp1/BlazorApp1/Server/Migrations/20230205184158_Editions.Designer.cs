@@ -4,14 +4,16 @@ using BlazorApp1.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BlazorApp1.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230205184158_Editions")]
+    partial class Editions
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,28 +78,6 @@ namespace BlazorApp1.Server.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Editions");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Red"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Black"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Blue"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "White"
-                        });
                 });
 
             modelBuilder.Entity("BlazorApp1.Shared.Product", b =>
@@ -185,28 +165,6 @@ namespace BlazorApp1.Server.Migrations
                     b.HasIndex("ProductsId");
 
                     b.ToTable("EditionProduct");
-
-                    b.HasData(
-                        new
-                        {
-                            EditionsId = 1,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 2,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 3,
-                            ProductsId = 11
-                        },
-                        new
-                        {
-                            EditionsId = 4,
-                            ProductsId = 11
-                        });
                 });
 
             modelBuilder.Entity("BlazorApp1.Shared.Product", b =>

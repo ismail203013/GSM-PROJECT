@@ -1,5 +1,7 @@
 ﻿using BlazorApp1.Shared;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 
 namespace BlazorApp1.Server.Data
 {
@@ -14,6 +16,8 @@ namespace BlazorApp1.Server.Data
 
         public DbSet <Category> Categories { get; set; }
         public DbSet <Product> Products { get; set; }
+
+        public DbSet <Edition> Editions { get; set; }
 
         //adding data to the database
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
@@ -37,6 +41,7 @@ namespace BlazorApp1.Server.Data
                      Image = "https://cdn.shopify.com/s/files/1/0314/9738/8165/products/DEV-20WPD-PLUG-WHT_md_720x.jpg?v=1612450879",
                      Price = 9.99m,
                      OriginalPrice = 12.99m,
+                     DateCreated = new DateTime(2023 , 2 , 5)
                  },
                   new Product
                   {
@@ -46,10 +51,26 @@ namespace BlazorApp1.Server.Data
                      Description = "Guaranteed 50% charge in 30 minutes charged for all iOS devices (This cable can only provide this result along with using the Power Delivery Plug) – Power Delivery: Use this cable with your USB-C Power Delivery charger (including Apple 29W, 30W, 61W, or 87W USB-C Power Adapter) to charge your iOS device, and access fast charging for iPhone 8, 8 Plus, X, XS, XR, XS Max, iPads, and more. – Staying Power: Lasts 30× longer than ordinary cables. Proven in a laboratory environment to withstand 30,000 bends. – MFi: MFi certification and strict quality testing ensure your Apple devices are charged safely, at their fastest possible speed. – With this Lightning to USB C cable, you can not only use a PD Power Adapter but also the mobile power supply to recharge your iPhone. It’s worth mentioning that it also supports fast charge and data transfer your iPhone from a USB-C laptop or desktop directly. And the data transfer rates up to 480Mbps, 1G large files will be finished in 25s. Perfect choice to take advantage of fast charging with existing USB-C PD charger for your newest Apple devices.",
                      Image = "https://armafone.com/wp-content/uploads/2020/10/Devia-1.5m-18W-Power-Delivery-Type-C-to-MFI-Lightning-Cable-White-1-1.jpg",
                      Price = 7.45m,
+                     DateCreated = new DateTime(2023, 2, 5)
                   }
 
 
                 );
+            modelBuilder.Entity<Edition>().HasData(
+                new Edition { Id = 1, Name = "Red", },
+                 new Edition { Id = 2, Name = "Black", },
+                  new Edition { Id = 3, Name = "Blue", },
+                    new Edition { Id = 4, Name = "White", }
+                );
+
+            modelBuilder.SharedTypeEntity<Dictionary<string, object>>("EditionProduct").HasData(
+                new {EditionsId =1 , ProductsId = 11},
+                new { EditionsId = 2, ProductsId = 11 },
+                new { EditionsId = 3, ProductsId = 11 },
+                new { EditionsId = 4, ProductsId = 11 }
+
+                );
+
         }
     }
 }   
