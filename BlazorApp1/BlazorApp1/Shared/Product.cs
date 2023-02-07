@@ -13,18 +13,14 @@ namespace BlazorApp1.Shared
         public string Title { get; set; }
         public string Description { get; set; }
         public string Image { get; set; } = "https://via.placeholder.com/300x300"; 
-
-        [Column(TypeName = "decimal(18,2)")] //precision for the database column
-        public decimal Price { get; set; }
-        [Column(TypeName = "decimal(18,2)")] //precision for the database column
-        public decimal OriginalPrice { get; set; }
         public bool IsPublic { get; set; }
         public bool IsDeleted { get; set; }
         public Category Category { get; set; }
         public int CategoryId { get; set; }
-        public List<Edition> Editions { get; set; }
+        public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
         public DateTime? DateCreated { get; set; } = DateTime.Now; // ? makes it nullable to easier to add products via database
         public DateTime? DateUpdated { get; set; } // ? makes it nullable to easier to add products via database
+
 
     }
 }

@@ -111,7 +111,7 @@ using BlazorApp1.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\ProductList.razor"
+#line 28 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\ProductList.razor"
        
     // [Parameter]
 
@@ -126,6 +126,22 @@ using BlazorApp1.Client.Services.CategoryService;
     public  void Dispose()
     {
         ProductService.OnChange -= StateHasChanged;
+    }
+    private string GetPrice(Product product)
+    {
+        var variants = product.Variants;
+        if (variants.Count == 0) // if the product has no variants
+        {
+            return string.Empty;
+        }
+        else if (variants.Count == 1) // if there is one vairant display default price
+        {
+            return $"£{variants[0].Price}";
+
+        }
+        decimal minPrice = variants.Min( v => v.Price); //if there is more than two display lowest price
+        return $"Starting at £{minPrice}";
+
     }
 
 #line default

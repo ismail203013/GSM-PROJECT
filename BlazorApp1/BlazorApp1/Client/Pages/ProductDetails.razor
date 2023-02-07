@@ -8,23 +8,28 @@
     <div class= "media-body">
         <h2 class="mb-0">@product.Title</h2>
         <p>@product.Description</p>
-        @if (product.Editions !=null && product.Editions.Count > 0 )
+        @if (product.Variants !=null && product.Variants.Count > 1 )
         {
             <div class="form-group">
-                <select class="form-control">
-                    @foreach(var edition in product.Editions)
+                <select class="form-control"@bind="currentEditionId" >
+                    @foreach(var variant in product.Variants)
                     {
-                        <option>@edition.Name</option>
+                        <option value="@variant.EditionId">@variant.Edition.Name</option>
                     }
                            }
                 </select>
             </div>
         }
-        @if (product.OriginalPrice > product.Price) //checks to see if price is discounted or not
+        @if (GetSelectedVariant() != null)
         {
-            <h6 class="original-price">£@product.OriginalPrice</h6>
+
+
+            @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price) //checks to see if price is discounted or not
+            {
+                <h6 class="original-price">£@GetSelectedVariant().OriginalPrice</h6>
+            }
+            <h4 class="price">£@GetSelectedVariant().Price</h4>
         }
-        <h4 class="price">£@product.Price</h4>
         <button class=btn-primary><i class="oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
 
     </div>
@@ -36,6 +41,8 @@
     [Parameter]
     public int Id { get; set; }
 
+    private int currentEditionId = 1;
+
     protected override async Task OnInitializedAsync()
     {
         //extra security making sure products are loaded
@@ -44,5 +51,17 @@
         //  ProductService.LoadProducts();
         // }
         product = await ProductService.GetProduct(Id); //Products.FirstOrDefault(p => p.Id == Int32.Parse(Id)); //else pass the id
+        if(product.Variants.Count > 0 )
+        {
+            currentEditionId = product.Variants[0].EditionId;
+
+        }
+
+    }
+
+    private ProductVariant GetSelectedVariant()
+    {
+        var variant = product.Variants.FirstOrDefault(v => v.EditionId == currentEditionId);
+        return variant;
     }
 }

@@ -112,12 +112,14 @@ using BlazorApp1.Client.Services.CategoryService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
+#line 38 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
        
     private Product product = new Product();
 
     [Parameter]
     public int Id { get; set; }
+
+    private int currentEditionId = 1;
 
     protected override async Task OnInitializedAsync()
     {
@@ -127,6 +129,18 @@ using BlazorApp1.Client.Services.CategoryService;
         //  ProductService.LoadProducts();
         // }
         product = await ProductService.GetProduct(Id); //Products.FirstOrDefault(p => p.Id == Int32.Parse(Id)); //else pass the id
+        if(product.Variants.Count > 0 )
+        {
+            currentEditionId = product.Variants[0].EditionId;
+
+        }
+
+    }
+
+    private ProductVariant GetSelectedVariant()
+    {
+        var variant = product.Variants.FirstOrDefault(v => v.EditionId == currentEditionId);
+        return variant;
     }
 
 #line default
