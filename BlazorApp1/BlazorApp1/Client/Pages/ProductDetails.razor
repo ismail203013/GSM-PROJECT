@@ -1,5 +1,7 @@
 ﻿@page "/product/{id:int}"
 @inject IProductService ProductService 
+@inject ILocalStorageService LocalStorage
+@inject IToastService ToastService
 
 <div class="media"> 
     <div class="media-img-big-wrapper">
@@ -30,7 +32,7 @@
             }
             <h4 class="price">£@GetSelectedVariant().Price</h4>
         }
-        <button class=btn-primary><i class="oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
+        <button class=btn-primary @onclick="AddToCart"><i class="oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
 
     </div>
 </div>
@@ -63,5 +65,20 @@
     {
         var variant = product.Variants.FirstOrDefault(v => v.EditionId == currentEditionId);
         return variant;
+    }
+
+    private async Task AddToCart()  
+    {
+        var cart = await LocalStorage.GetItemAsync <List<ProductVariant >> ("cart");  //setting cart varaible to what is the basket (local storage) 
+
+        if (cart == null) //if cart is empty then create a new list (basket)
+        {
+            cart = new List<ProductVariant>();
+
+        }
+
+        cart.Add(GetSelectedVariant());
+        await LocalStorage.SetItemAsync("cart",cart);  //adding products to the cart 
+        ToastService.ShowSuccess(product.Title, "Added to cart"); // pop up notifaction
     }
 }

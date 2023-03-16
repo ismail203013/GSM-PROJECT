@@ -322,6 +322,37 @@
           "BlazorApp1.Server.dll": {}
         }
       },
+      "Blazored.LocalStorage/3.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.15",
+          "Microsoft.AspNetCore.Components.Web": "5.0.15"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.LocalStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.LocalStorage.dll": {}
+        }
+      },
+      "Blazored.Toast/3.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.15",
+          "Microsoft.AspNetCore.Components.Web": "5.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -1480,6 +1511,8 @@
       "BlazorApp1.Client/1.0.0": {
         "dependencies": {
           "BlazorApp1.Shared": "1.0.0",
+          "Blazored.LocalStorage": "3.0.0",
+          "Blazored.Toast": "3.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.15",
           "System.Net.Http.Json": "5.0.0"
         },
@@ -3155,6 +3188,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.LocalStorage/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eXpHDvog+nRvAFsrqVKqGrpHXuyPTH8tgAremHKbteP5nNEROlItfP8Xh8pNMpTovuQ4tl3NyfQcG0rnbjQ5jw==",
+      "path": "blazored.localstorage/3.0.0",
+      "hashPath": "blazored.localstorage.3.0.0.nupkg.sha512"
+    },
+    "Blazored.Toast/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-noCVZ2IbYDC57Yef3VyIGmRjgZRHc695uizf1KSLDN7gm2uxJCO73ppLRVcYaWUjYHKcQgDnfJ+ewlQNc779oA==",
+      "path": "blazored.toast/3.0.0",
+      "hashPath": "blazored.toast.3.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

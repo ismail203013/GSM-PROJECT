@@ -1,6 +1,7 @@
 using BlazorApp1.Server.Data;
 using BlazorApp1.Server.Services.CategoryService;
 using BlazorApp1.Server.Services.ProductService;
+using Blazored.Toast;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -20,6 +21,7 @@ namespace BlazorApp1.Server
             Configuration = configuration;
         }
 
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -33,6 +35,7 @@ namespace BlazorApp1.Server
             services.AddRazorPages();
             services.AddScoped<ICategoryService, CategoryService>(); //registering the category service
             services.AddScoped<IProductService, ProductService>(); //registering the category service
+            services.AddBlazoredToast();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
