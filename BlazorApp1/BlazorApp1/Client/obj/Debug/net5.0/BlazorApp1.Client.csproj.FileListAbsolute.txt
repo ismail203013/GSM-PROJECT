@@ -644,3 +644,5 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\refint\BlazorApp1.Client.dll
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.pdb
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\ref\BlazorApp1.Client.dll
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs
