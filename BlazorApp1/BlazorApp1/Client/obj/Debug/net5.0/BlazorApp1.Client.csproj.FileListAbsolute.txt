@@ -413,6 +413,7 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Shop.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Shared\CartMenu.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ProductList.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -427,12 +428,14 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Shop.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\CartMenu.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\ProductList.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\Ie46++BA.gz
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\USLDfoZr.gz
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\KfHz4tFO.gz
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\+R+PW54q.gz
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\8XBYXX2N.gz
@@ -641,4 +644,3 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\refint\BlazorApp1.Client.dll
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.pdb
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\ref\BlazorApp1.Client.dll
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\build-gz\USLDfoZr.gz
