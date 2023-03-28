@@ -131,7 +131,7 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/index")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/{categoryurl}")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -141,13 +141,15 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Index.razor"
+#line 21 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Index.razor"
  
     [Parameter]
 
     public string CategoryUrl { get; set; }
 
     private Category category = null;
+
+    
 
     protected override async Task OnParametersSetAsync()
     {

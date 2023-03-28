@@ -1,0 +1,276 @@
+﻿++Solution 'BlazorApp1' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.sln
+++BlazorApp1.Shared
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\blazorapp1.shared.csproj
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\blazorapp1.shared.csproj
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Shared
+++Dependencies
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2200
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2201
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:>1265
+++Analyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:analyzers
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:analyzers
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:analyzers
+++Frameworks
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:frameworks
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:frameworks
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:frameworks
+++CartItem.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\cartitem.cs
+++Category.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\category.cs
+++Edition.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\edition.cs
+++Product.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\product.cs
+++ProductVariant.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\productvariant.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\microsoft.netcore.app
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\microsoft.netcore.app
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\microsoft.netcore.app
+++BlazorApp1.Server
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Server
+++Connected Services 
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2202
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2203
+++Packages
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:packages
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:packages
+++Projects
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:projects
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:projects
+++Properties
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\properties\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\properties\
+++Controllers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\controllers\
+++Data
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\data\
+++DataContext.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\data\datacontext.cs
+++Migrations
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\
+++Pages
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\pages\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\
+++Services
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\
+++appsettings.json
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\appsettings.json
+++Program.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\program.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\program.cs
+++Startup.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\startup.cs
+++No service dependencies discovered
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2204
+++Microsoft.AspNetCore.Analyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\.nuget\packages\microsoft.aspnetcore.components.analyzers\5.0.15\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Components.WebAssembly.Server (5.0.15)
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2219
+++Microsoft.EntityFrameworkCore (5.0.1)
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2216
+++Microsoft.EntityFrameworkCore.Design (5.0.1)
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2218
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.1)
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2217
+++BlazorApp1.Client
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\blazorapp1.client.csproj
+i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Client
+++launchSettings.json
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\properties\launchsettings.json
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\properties\launchsettings.json
+++CategoryController.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\controllers\categorycontroller.cs
+++ProductController.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\controllers\productcontroller.cs
+++20230129211438_Initial.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129211438_initial.cs
+++20230129222700_Seeding.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129222700_seeding.cs
+++20230129224417_ProductsRemoveFromCategoryModel.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129224417_productsremovefromcategorymodel.cs
+++20230205182321_ProductDateFix.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205182321_productdatefix.cs
+++20230205184158_Editions.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205184158_editions.cs
+++20230205190900_EditionSeeding.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205190900_editionseeding.cs
+++20230207200745_ProductVariants.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230207200745_productvariants.cs
+++DataContextModelSnapshot.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\datacontextmodelsnapshot.cs
+++Error.cshtml
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\pages\error.cshtml
+++CategoryService
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\categoryservice\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\categoryservice\
+++ProductService
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\productservice\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\productservice\
+++appsettings.Development.json
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\appsettings.development.json
+++20230129211438_Initial.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129211438_initial.designer.cs
+++20230129222700_Seeding.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129222700_seeding.designer.cs
+++20230129224417_ProductsRemoveFromCategoryModel.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230129224417_productsremovefromcategorymodel.designer.cs
+++20230205182321_ProductDateFix.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205182321_productdatefix.designer.cs
+++20230205184158_Editions.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205184158_editions.designer.cs
+++20230205190900_EditionSeeding.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230205190900_editionseeding.designer.cs
+++20230207200745_ProductVariants.Designer.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\migrations\20230207200745_productvariants.designer.cs
+++Error.cshtml.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\pages\error.cshtml.cs
+++CategoryService.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\categoryservice\categoryservice.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\categoryservice\categoryservice.cs
+++ICategoryService.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\categoryservice\icategoryservice.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\categoryservice\icategoryservice.cs
+++IProductService.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\productservice\iproductservice.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\productservice\iproductservice.cs
+++ProductService.cs
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\services\productservice\productservice.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\productservice\productservice.cs
+++ILLink.CodeFixProvider
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\illink.codefixprovider.dll
+++ILLink.RoslynAnalyzer
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
+++Blazored.LocalStorage (3.0.0)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2231
+++Blazored.Toast (3.0.0)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2233
+++Microsoft.AspNetCore.Components.WebAssembly (5.0.15)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2232
+++Microsoft.AspNetCore.Components.WebAssembly.DevServer (5.0.15)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2234
+++System.Net.Http.Json (5.0.0)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2235
+++wwwroot
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\
+++css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\css\
+++bootstrap
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\bootstrap\
+++open-iconic
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\
+++app.css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\app.css
+++Images
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\images\
+++favicon.ico
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\favicon.ico
+++index.html
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\index.html
+++AboutUs.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\aboutus.razor
+++Booking.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\booking.razor
+++Cart.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\cart.razor
+++ContactUs.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\contactus.razor
+++Home.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\home.razor
+++Index.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\index.razor
+++Login.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\login.razor
+++ProductDetails.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\productdetails.razor
+++Services.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\services.razor
+++Shop.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\shop.razor
+++CartService
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\cartservice\
+++CartService.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\cartservice\cartservice.cs
+++ICartService.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\services\cartservice\icartservice.cs
+++Shared
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\
+++CartMenu.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\cartmenu.razor
+++MainLayout.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\mainlayout.razor
+++MainLayout.razor.css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\mainlayout.razor.css
+++NavMenu.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\navmenu.razor
+++NavMenu.razor.css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\navmenu.razor.css
+++ProductList.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\productlist.razor
+++SurveyPrompt.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\shared\surveyprompt.razor
+++_Imports.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\_imports.razor
+++App.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\app.razor
+++bootstrap.min.css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\readme.md
+++booking.png
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\images\booking.png
+++home.png
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\images\home.png
+++logo.PNG
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\images\logo.png
+++bootstrap.min.css.map
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++SQL Server Database (ConnectionStrings:DefaultConnection)
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2256
+++SQL Server Database dependency with connectionId 'ConnectionStrings:DefaultConnection' is detected
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2257
+++EntityFramework (6.4.4)
+++netstandard-System.Data.Linq (1.0.1)
+++System.Data.DataSetExtensions (4.5.0)

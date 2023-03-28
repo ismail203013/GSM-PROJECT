@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlazorApp1.Shared
 {
-    public class Product
+    public class Product 
     {
         public int Id { get; set; }
         public string Title { get; set; }

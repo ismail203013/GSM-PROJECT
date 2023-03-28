@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BlazorApp1.Client.Services.ProductService
 {
-    public interface IProductService
+    public interface IProductService 
     {
         event Action OnChange;
         List<Product> Products { get; set; }

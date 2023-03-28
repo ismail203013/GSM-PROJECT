@@ -410,8 +410,15 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.RazorComponent.input.cache
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\AboutUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Booking.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ContactUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Home.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Services.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Shop.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Shared\CartMenu.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ProductList.razor.g.cs
@@ -425,8 +432,15 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.TagHelpers.output.cache
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.RazorCoreGenerate.cache
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\AboutUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Booking.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\ContactUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Home.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Services.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Shop.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\CartMenu.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Shared\ProductList.razor.g.cs
@@ -644,5 +658,3 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\refint\BlazorApp1.Client.dll
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\BlazorApp1.Client.pdb
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\ref\BlazorApp1.Client.dll
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs

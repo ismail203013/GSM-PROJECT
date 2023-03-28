@@ -2,12 +2,17 @@
 @inject ICartService CartService 
 @implements IDisposable
 
-<a href="cart" class="btn-info">
+@*<a href="cart" class="btn-info">
     <i class="oi-cart"></i>
     Cart
     <span class="badge-pill badge-light">@GetProductCount()</span>
 
-</a>
+</a>*@
+<a>
+                    <NavLink class="nav-link" href="/cart"Match="NavLinkMatch.All">
+                        <span class="oi oi-cart" aria-hidden="true" >@GetProductCount()</span>
+                    </NavLink>
+          </a>      
 
 
 

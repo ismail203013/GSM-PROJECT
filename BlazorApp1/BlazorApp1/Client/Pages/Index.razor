@@ -1,7 +1,9 @@
-﻿@page "/"
+﻿@page "/index"
 @page "/{categoryurl}"
 @inject ICategoryService CategoryService;
 @inject IProductService ProductService;
+
+
 
 @if (category != null)
 {
@@ -22,6 +24,8 @@ else
     public string CategoryUrl { get; set; }
 
     private Category category = null;
+
+    
 
     protected override async Task OnParametersSetAsync()
     {

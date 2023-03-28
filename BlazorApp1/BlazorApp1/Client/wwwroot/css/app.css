@@ -36,6 +36,7 @@ a, .btn-link {
     border-radius: 6px;
     margin-bottom: 10px;
     transition: transform .2s;
+    margin: auto;
 }
 
 .media-img-big {
@@ -53,6 +54,7 @@ a, .btn-link {
     width: 200px;
     height: 200px;
     text-align: center;
+    margin: auto;
 }
 
 .media-img-big-wrapper {
@@ -125,6 +127,48 @@ a, .btn-link {
     .btn-delete:hover {
         text-decoration: underline;
     }
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.homepage-item {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+.home-title{
+    text-align:center;
+    justify-content:center;
+    text-decoration:solid;
+    padding:10px;
+    font-weight:bold;
+    font-size: xx-large;
+       
+}
+.heading {
+    text-align: center;
+    font-size: 21px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.text {
+    text-align: center;
+    padding: 5px;
+    justify-content:center;
+}
+.center {
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+}
 
 
 

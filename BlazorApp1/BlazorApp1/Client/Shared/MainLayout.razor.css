@@ -1,4 +1,4 @@
-.page {
+/*.page {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,13 @@
     .top-row a:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
-    }
+    }*/
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth) {

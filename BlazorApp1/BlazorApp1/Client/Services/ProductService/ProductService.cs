@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlazorApp1.Client.Services.ProductService
 {
-    public class ProductService : IProductService
+    public class ProductService : IProductService 
     {
         private readonly HttpClient _http;
 
