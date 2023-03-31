@@ -131,6 +131,13 @@ using Blazored.Toast.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\MainLayout.razor"
+using Blazored.Toast.Configuration;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

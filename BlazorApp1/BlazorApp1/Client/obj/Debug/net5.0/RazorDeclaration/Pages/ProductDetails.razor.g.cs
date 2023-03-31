@@ -173,7 +173,8 @@ using Blazored.Toast.Services;
 
     private async Task AddToCart()  
     {
-        await CartService.AddToCart(GetSelectedVariant());  
+        await CartService.AddToCart(GetSelectedVariant());
+        //ToastService.ShowSuccess(product.Title, "Added to Cart");
     }
 
 #line default
