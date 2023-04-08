@@ -1,6 +1,7 @@
 using BlazorApp1.Client.Services.CartService;
 using BlazorApp1.Client.Services.CategoryService;
 using BlazorApp1.Client.Services.ProductService;
+using BlazorApp1.Client.Services.FormService;
 using Blazored.LocalStorage;
 using Blazored.Toast;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -12,6 +13,8 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components.Authorization;
+using BlazorApp1.Shared;
 
 namespace BlazorApp1.Client
 {
@@ -26,8 +29,12 @@ namespace BlazorApp1.Client
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IFormService, FormService>();
             builder.Services.AddBlazoredLocalStorage();
             builder.Services.AddBlazoredToast();
+            builder.Services.AddOptions();
+            builder.Services.AddAuthorizationCore();
+            builder.Services.AddScoped<AuthenticationStateProvider, LoginAuth>();
 
             await builder.Build().RunAsync();
         }

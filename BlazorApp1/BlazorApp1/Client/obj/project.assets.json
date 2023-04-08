@@ -68,6 +68,19 @@
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Authorization/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "5.0.3",
+          "Microsoft.AspNetCore.Components": "5.0.3"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/5.0.15": {
         "type": "package",
         "dependencies": {
@@ -342,6 +355,9 @@
       "BlazorApp1.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "5.0.3"
+        },
         "compile": {
           "bin/placeholder/BlazorApp1.Shared.dll": {}
         },
@@ -417,6 +433,19 @@
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Authorization/5.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "5.0.3",
+          "Microsoft.AspNetCore.Components": "5.0.3"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/5.0.15": {
         "type": "package",
         "dependencies": {
@@ -691,6 +720,9 @@
       "BlazorApp1.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "5.0.3"
+        },
         "compile": {
           "bin/placeholder/BlazorApp1.Shared.dll": {}
         },
@@ -779,6 +811,21 @@
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "microsoft.aspnetcore.components.analyzers.5.0.15.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/5.0.3": {
+      "sha512": "Uq7L3rBBk7xF+cX3UukxH5nP4m0QjwFQW7kj+NyLjRIy49OQcYDg6B6t6+XtzvWSxMuV0WVEsfIkLpUt6Usvrg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/5.0.15": {
@@ -1263,6 +1310,7 @@
       "BlazorApp1.Shared >= 1.0.0",
       "Blazored.LocalStorage >= 3.0.0",
       "Blazored.Toast >= 3.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 5.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.15",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.15",
       "System.Net.Http.Json >= 5.0.0"
@@ -1323,6 +1371,10 @@
           "Blazored.Toast": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[5.0.3, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",

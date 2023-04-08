@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "BQwU/QMTvczyEbGXmM7Xde4HDS+dGSG0SJO20NFZ51tjTM7a8WcsO07Dk88Mah2f3r8eUn60CVwChcYrK65zNA==",
+  "dgSpecHash": "XD2pPg0Vsc9zsLYnh6ERq9b7lyv7jrPPfu6Es0LfOWy8tZn9HFRl6nYiM8yW/5hrpFmNiGFMPmGb/S2ehcXcdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ismail\\OneDrive - Sheffield Hallam University\\Documents\\GitHub\\GSM-PROJECT\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.3\\microsoft.aspnetcore.authorization.5.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.3\\microsoft.aspnetcore.components.5.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.3\\microsoft.aspnetcore.components.analyzers.5.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\5.0.3\\microsoft.aspnetcore.components.authorization.5.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.3\\microsoft.aspnetcore.metadata.5.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

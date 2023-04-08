@@ -1,18 +1,41 @@
 ﻿@inject ICategoryService CategoryService
 @page "/shop"
-<h3>Shop</h3>
+<h3 class="shop-title">Shop</h3>
 
 
+<div class="about-grid-container">
+
+    
     @foreach (var category in CategoryService.Categories)
     {
-        <li>
+        <div class="shop-items">
+        
             <NavLink class="nav-link" href="@category.Url">
-              <span class="oi-@category.Icon"aria-hidden="true"></span>
+                @if(category.Id == 1)
+                {
+                    <img src="/Images/energy.png" width="150px">
+
+                }
+                @if(category.Id == 2)
+                {
+                    <img src="/Images/usb-c-cable.png" width="150px">
+
+                }
+                @if(category.Id == 3)
+                {
+                    <img src="/Images/phone.png" width="150px">
+
+                }
+               
+                <br/>
+             
             @category.Name  
             </NavLink>
-           
-        </li>
+
+        </div>   
+        
     }
+</div>
 
 
 
