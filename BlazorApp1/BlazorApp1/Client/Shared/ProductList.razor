@@ -1,7 +1,7 @@
 ﻿@inject IProductService ProductService
 @implements IDisposable
 
-<ul class="list-unstyled">
+<ul class="product-list">
     @foreach (var product in ProductService.Products)
     {
         <li class= "media">
@@ -14,7 +14,6 @@
                <a href="/product/@product.Id">
                    <h4 class="mb-0"> @product.Title</h4>
                </a>
-               <p>@product.Description</p>
                
                 <h5 class="price">
                     @GetPrice(product)

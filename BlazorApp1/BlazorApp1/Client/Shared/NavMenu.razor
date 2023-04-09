@@ -1,9 +1,11 @@
 ﻿@inject ICategoryService CategoryService
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthStateProvider
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <div class="container-fluid">
         <a class="navbar-brand justify-content-s" href="/">
-        <img src="/Images/logo.PNG" alt="GSM LOGO" width="250px">    
+        <img src="/Images/logo.PNG" alt="GSM LOGO" width="250px" class="logo" >    
         </a>
         <button class="navbar-toggler @NavButtonCssClass" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-label="Toggle navigation" @onclick="ToggleNavMenu">
@@ -42,9 +44,20 @@
                     </NavLink>
                 </li>
                  <li class="nav-item">
+                     <AuthorizeView>
+                         <NotAuthorized>
                     <NavLink class="nav-link" href="/login"Match="NavLinkMatch.All">
                         <span class="oi oi-account-login" aria-hidden="true"></span>
                     </NavLink>
+                    </NotAuthorized>
+                    <Authorized>
+                        <a class="nav-link" @onclick="logout" style="cursor: pointer" >
+                            <span class="oi oi-account-logout" aria-hidden="true">
+
+                            </span>
+                        </a>
+                    </Authorized>
+                    </AuthorizeView>
                 </li>
                   <li class="nav-item">
                     
@@ -64,5 +77,13 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+
+    private async void logout()
+
+    {
+        await LocalStorage.RemoveItemAsync("username");
+        await AuthStateProvider.GetAuthenticationStateAsync();
     }
 }

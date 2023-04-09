@@ -69,6 +69,18 @@ a, .btn-link {
 
 .price {
     color: green;
+    padding: 25px;
+    justify-content: center;
+}
+
+.mb-0 {
+    padding: 25px;
+    justify-content: center;
+    padding-top:10px;
+}
+
+.logo {
+    border-radius: 12px;
 }
 
 #blazor-error-ui {
@@ -342,18 +354,33 @@ td:last-child {
         text-align: right;
     }
 
+
+
+.login-title {
+    text-align: center;
+    justify-content: center;
+    text-decoration: solid;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.product-list {
+    padding: 25px;
+}
+
+
 @media (max-width: 1023.98px) {
     .media {
-        flex-direction: column;
-    }
+            flex-direction: column;
+        }
 
-    .media-img-big-wrapper, .media-img-wrapper {
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
+        .media-img-big-wrapper, .media-img-wrapper {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
 
-    .media-img-big {
-        max-width: 300px;
+        .media-img-big {
+            max-width: 300px;
+        }
     }
-}

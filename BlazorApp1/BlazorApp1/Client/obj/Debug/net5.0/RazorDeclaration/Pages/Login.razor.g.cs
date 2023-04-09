@@ -154,7 +154,7 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Login.razor"
+#line 47 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Login.razor"
        
 
 
@@ -166,7 +166,20 @@ using Microsoft.AspNetCore.Components.Authorization;
 
         Console.WriteLine("LOGGED IN!!!");
         await LocalStorage.SetItemAsync<string>("username", user.Username);
-        NavigationManager.NavigateTo("");
+        await AuthStateProvider.GetAuthenticationStateAsync();
+        ToastService.ShowSuccess("You have sucessfully logged in!");
+       // NavigationManager.NavigateTo("");
+
+
+    }
+
+    private void UserReg()
+
+    {
+
+        
+        ToastService.ShowInfo("An email has been sent, please follow the instructions to complete registration !");
+      
 
 
     }
@@ -174,6 +187,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILocalStorageService LocalStorage { get; set; }
