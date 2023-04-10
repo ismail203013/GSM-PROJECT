@@ -10,8 +10,13 @@ a, .btn-link {
 
 .btn-primary {
     color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px #666;
 }
 
 .content {
@@ -40,10 +45,11 @@ a, .btn-link {
 }
 
 .media-img-big {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 400px;
+    max-width: 400px;
     border-radius: 6px;
     margin-bottom: 10px;
+   
 }
 
 .media-img:hover {
@@ -61,6 +67,8 @@ a, .btn-link {
     width: 500px;
     height: 500px;
     text-align: center;
+    justify-content:center;
+    padding-top:70px;
 }
 
 .original-price {
@@ -367,6 +375,17 @@ td:last-child {
 .product-list {
     padding: 25px;
 }
+
+.product-grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 40% 60%;
+    text-align:center;
+}
+
 
 
 @media (max-width: 1023.98px) {

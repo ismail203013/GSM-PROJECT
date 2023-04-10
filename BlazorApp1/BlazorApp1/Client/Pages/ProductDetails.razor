@@ -6,13 +6,16 @@
 
 
 
-<div class="media"> 
+<div class="product-grid-container"> 
     <div class="media-img-big-wrapper">
         <img class="media-img-big" src="@product.Image" alt="@product.Title" /> 
     </div>
     <div class= "media-body">
         <h2 class="mb-0">@product.Title</h2>
-        <p>@product.Description</p>
+        <p>
+            <ul>@product.Description</ul>
+            
+        </p>
         @if (product.Variants !=null && product.Variants.Count > 1 )
         {
             <div class="form-group">
@@ -35,7 +38,7 @@
             }
             <h4 class="price">£@GetSelectedVariant().Price</h4>
         }
-        <button class=btn-primary @onclick="AddToCart"><i class="oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
+        <button class=btn-primary @onclick="AddToCart"><i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
 
     </div>
 </div>
