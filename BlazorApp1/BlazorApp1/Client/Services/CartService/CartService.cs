@@ -23,17 +23,31 @@ namespace BlazorApp1.Client.Services.CartService
            _productService = productservice;
         }
 
-        public async Task AddToCart(ProductVariant productVariant)
+        public async Task AddToCart(CartItem item)
         {
-            var cart = await _localStorage.GetItemAsync<List<ProductVariant>>("cart");
+            var cart = await _localStorage.GetItemAsync<List<CartItem>>("cart");
             if (cart == null)
             {
-                cart = new List<ProductVariant>();
+                cart = new List<CartItem>();
             }
-            cart.Add(productVariant);
-            await _localStorage.SetItemAsync("cart",cart);
 
-            var product = await _productService.GetProduct(productVariant.ProductId);
+            var sameItem = cart.Find(x=> x.ProductId == item.ProductId && x.EditionId == item.EditionId); ;
+
+            if (sameItem == null)
+
+            {
+                cart.Add(item);
+            }
+            else 
+            { 
+              sameItem.Quantity += item.Quantity;
+            }
+
+            await _localStorage.SetItemAsync("cart",cart);
+            
+
+
+            var product = await _productService.GetProduct(item.ProductId);
             _toastService.ShowSuccess(product.Title, "Added to cart:");
 
             OnChange.Invoke();
@@ -41,37 +55,19 @@ namespace BlazorApp1.Client.Services.CartService
 
         public async Task<List<CartItem>> GetCartItems()
         {
-           var result = new List<CartItem>();
-            var cart = await _localStorage.GetItemAsync<List<ProductVariant>>("cart");
+           
+            var cart = await _localStorage.GetItemAsync<List<CartItem>>("cart");
             if (cart == null)
             {
-                return result;
+                return new List<CartItem>();
             }
 
-            foreach (var item in cart) 
-            {
-                var product = await _productService.GetProduct(item.ProductId);
-                var cartItem = new CartItem
-                {
-                    ProductId = product.Id,
-                    ProductTitle = product.Title,
-                    Image = product.Image,
-                    EditionId = item.EditionId
-                };
-                var varinat = product.Variants.Find(v => v.EditionId == item.EditionId);
-                if (varinat != null)
-                {
-                    cartItem.EditionName = varinat.Edition?.Name;
-                    cartItem.Price = varinat.Price;
-                }
-                result.Add(cartItem);
-            }
-            return result;
+            return cart;
         }
 
         public async Task DeleteItem(CartItem item)
         {
-            var cart = await _localStorage.GetItemAsync<List<ProductVariant>>("cart");
+            var cart = await _localStorage.GetItemAsync<List<CartItem>>("cart");
 
             if (cart == null)
             {
@@ -83,6 +79,15 @@ namespace BlazorApp1.Client.Services.CartService
 
             await _localStorage.SetItemAsync("cart", cart);
             OnChange.Invoke();
+        }
+
+        public async Task EmptyCart()
+        {
+
+            await _localStorage.RemoveItemAsync("cart");
+            OnChange.Invoke();
+
+
         }
     }
 }

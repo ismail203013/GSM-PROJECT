@@ -154,9 +154,10 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 34 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Cart.razor"
+#line 143 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Cart.razor"
        
     List<CartItem> cartItems = new List<CartItem>();
+    bool orderPlaced = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -170,10 +171,21 @@ using Microsoft.AspNetCore.Components.Authorization;
         cartItems = await CartService.GetCartItems();
     }
 
+    private async void PlaceOrder()
+
+    {
+
+        orderPlaced = true;
+        await CartService.EmptyCart();
+        ToastService.ShowSuccess("Order Placed Sucessfully!");
+
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICartService CartService { get; set; }
     }
 }

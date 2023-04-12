@@ -154,7 +154,7 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 46 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
+#line 54 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor"
        
     private Product product = new Product();
 
@@ -162,6 +162,8 @@ using Microsoft.AspNetCore.Components.Authorization;
     public int Id { get; set; }
 
     private int currentEditionId = 1;
+
+    private CartItem cartItem = new CartItem { Quantity = 1 };
 
     protected override async Task OnInitializedAsync()
     {
@@ -187,7 +189,17 @@ using Microsoft.AspNetCore.Components.Authorization;
 
     private async Task AddToCart()  
     {
-        await CartService.AddToCart(GetSelectedVariant());
+        var productVariant = GetSelectedVariant();
+
+        cartItem.EditionId = productVariant.EditionId;
+        cartItem.EditionName = productVariant.Edition.Name;
+        cartItem.Image = product.Image;
+        cartItem.Price = productVariant.Price;
+        cartItem.ProductId = productVariant.ProductId;
+        cartItem.ProductTitle = product.Title;
+
+
+        await CartService.AddToCart(cartItem);
         //ToastService.ShowSuccess(product.Title, "Added to Cart");
     }
 

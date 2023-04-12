@@ -73,12 +73,14 @@ a, .btn-link {
 
 .original-price {
     text-decoration: line-through;
+    color:red;
 }
 
 .price {
     color: green;
     padding: 25px;
     justify-content: center;
+    font-weight:bold;
 }
 
 .mb-0 {
@@ -386,6 +388,105 @@ td:last-child {
     text-align:center;
 }
 
+.cart-grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 25% 25% 25% 25% ;
+    text-align: center;
+}
+
+.final-cart-grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.two-grid-container {
+    display: inline-grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+
+    
+}
+
+
+
+.cart-image-wrapper {
+    width: 150px;
+    text-align: center;
+}
+
+.cart-image {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.cart-name {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.cart-price {
+    font-weight: 600;
+    text-align: center;
+   
+}
+
+.final-price {
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+}
+
+.counter {
+    width:110px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+.product-counter {
+    width: 110px;
+   
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom:40px;
+}
+.btn-product {
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px #666;
+    height: 77px;
+    width: 200px;
+}
+.cart-center {
+    height:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10%;
+}
 
 
 @media (max-width: 1023.98px) {

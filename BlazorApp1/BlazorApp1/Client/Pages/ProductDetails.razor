@@ -38,7 +38,15 @@
             }
             <h4 class="price">£@GetSelectedVariant().Price</h4>
         }
-        <button class=btn-primary @onclick="AddToCart"><i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
+        <div class="two-grid-container">
+        <EditForm Model="cartItem" class="product-counter">
+            <div>
+                <InputNumber id="quantity" @bind-Value="cartItem.Quantity" style="width:70px"/>      
+            </div>
+
+        </EditForm>
+        <button class=btn-product @onclick="AddToCart"><i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp; Add to cart</button>
+        </div>
 
     </div>
 </div>
@@ -50,6 +58,8 @@
     public int Id { get; set; }
 
     private int currentEditionId = 1;
+
+    private CartItem cartItem = new CartItem { Quantity = 1 };
 
     protected override async Task OnInitializedAsync()
     {
@@ -75,7 +85,17 @@
 
     private async Task AddToCart()  
     {
-        await CartService.AddToCart(GetSelectedVariant());
+        var productVariant = GetSelectedVariant();
+
+        cartItem.EditionId = productVariant.EditionId;
+        cartItem.EditionName = productVariant.Edition.Name;
+        cartItem.Image = product.Image;
+        cartItem.Price = productVariant.Price;
+        cartItem.ProductId = productVariant.ProductId;
+        cartItem.ProductTitle = product.Title;
+
+
+        await CartService.AddToCart(cartItem);
         //ToastService.ShowSuccess(product.Title, "Added to Cart");
     }
 }
