@@ -40,8 +40,14 @@ namespace BlazorApp1.Server.Services.ProductService
             return await _context.Products.Include(p => p.Variants).Where(p => p.CategoryId == category.Id).ToListAsync();
             //add try catch blocks for error handling
         }
-       
 
-   
+       
+        public async Task<List<Product>> SerachProducts(string searchText)
+        {
+            //check to see if the search bar contains title or description from list of products
+            return await _context.Products.Where(p => p.Title.Contains(searchText) || p.Description.Contains(searchText)).ToListAsync();
+
+
+        }
     }
 }

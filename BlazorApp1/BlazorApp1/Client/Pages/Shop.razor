@@ -1,7 +1,40 @@
 ﻿@inject ICategoryService CategoryService
-@page "/shop"
-<h3 class="home-title">Shop</h3>
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+@using Blazored.Typeahead
 
+@page "/shop"
+
+<div class="shop-grid-container">
+
+    <div>
+<h3 class="shop-title">Shop</h3>
+    </div>
+    <div>
+<BlazoredTypeahead SearchMethod="@SearchProducts" 
+                   TValue="Product"
+                   TItem="Product"
+                   Value="selectedProduct"
+                   ValueChanged="HandleSearch"
+                   ValueExpression="@(() => selectedProduct)"
+                   placeholder="Search..."
+                                             
+                                                >
+    <SelectedTemplate>
+        @context.Title
+    </SelectedTemplate>
+
+    <ResultTemplate>
+        @context.Title
+    </ResultTemplate>
+
+    <NotFoundTemplate>
+        Sorry, No Items Where Found.
+    </NotFoundTemplate>
+</BlazoredTypeahead>
+</div>
+
+</div>
 
 <div class="about-grid-container">
 
@@ -50,8 +83,27 @@
 
 
 @code {
-     protected override async Task OnInitializedAsync()
+
+    private Product selectedProduct;
+
+
+    protected override async Task OnInitializedAsync()
     {
-       await  CategoryService.LoadCategories(); //loading all the categories
+        await  CategoryService.LoadCategories(); //loading all the categories
     }
+
+ private void HandleSearch(Product product)
+    {
+        if (product == null) return;
+        selectedProduct = product;
+        NavigationManager.NavigateTo($"product/{selectedProduct.Id}");
+    }
+
+    private async Task <IEnumerable<Product>> SearchProducts(string searchText)
+    {
+        var response = await ProductService.SerachProducts(searchText);
+        return response;
+    }
+
+   
 }

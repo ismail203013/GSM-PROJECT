@@ -145,6 +145,13 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Shop.razor"
+using Blazored.Typeahead;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/shop")]
     public partial class Shop : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -154,16 +161,37 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Shop.razor"
+#line 85 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Shop.razor"
        
-     protected override async Task OnInitializedAsync()
+
+    private Product selectedProduct;
+
+
+    protected override async Task OnInitializedAsync()
     {
-       await  CategoryService.LoadCategories(); //loading all the categories
+        await  CategoryService.LoadCategories(); //loading all the categories
     }
+
+ private void HandleSearch(Product product)
+    {
+        if (product == null) return;
+        selectedProduct = product;
+        NavigationManager.NavigateTo($"product/{selectedProduct.Id}");
+    }
+
+    private async Task <IEnumerable<Product>> SearchProducts(string searchText)
+    {
+        var response = await ProductService.SerachProducts(searchText);
+        return response;
+    }
+
+   
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IProductService ProductService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICategoryService CategoryService { get; set; }
     }
 }

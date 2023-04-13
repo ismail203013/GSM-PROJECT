@@ -11,5 +11,7 @@ namespace BlazorApp1.Client.Services.ProductService
         List<Product> Products { get; set; }
         Task LoadProducts(string categoryUrl = null);
         Task<Product> GetProduct(int id);
+
+        Task<List<Product>> SerachProducts(string searchText);
     }
 }
