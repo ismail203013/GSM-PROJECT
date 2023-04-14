@@ -501,6 +501,91 @@ td:last-child {
     
 }
 
+.booking-heading {
+    text-align: left;
+    font-size: 21px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left:40px;
+    text-decoration: underline;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content:center;
+}
+
+.cell {
+    width: 120px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+    .cell.selected {
+        background-color: #007bff;
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    .cell:hover {
+        background-color: #ebebeb;
+    }
+
+    .cell::before {
+        content: attr(data-time);
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .cell::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #007bff;
+        transform: scale(0);
+        transition: transform 0.3s ease;
+    }
+
+    .cell.selected::after {
+        transform: scale(1);
+    }
+
+.booking-time{
+    text-align:center;
+    justify-content:center;
+    color:    burlywood;
+    font-weight:bold;
+    
+}
+
+
+
+
 
 @media (max-width: 1023.98px) {
     .media {

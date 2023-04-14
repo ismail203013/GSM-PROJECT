@@ -153,6 +153,50 @@ using Microsoft.AspNetCore.Components.Authorization;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 56 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Booking.razor"
+       
+
+    private List<string> timeSlots = new List<string> {
+    "Monday   9:00 AM", "Monday  10:00 AM", "Monday 11:00 AM", "Monday, 12:00 PM", "Monday 5:00 PM",
+  "Tuesday 11:00 AM", "Tuesday 2:00 PM", 
+    "Wednesday 2:00 PM", "Wednesday 3:00 PM", "Wednesday 4:00 PM", "Wednesday 5:00 PM",
+   "Thursday 4:00 PM", "Thursday 5:00 PM",
+    "Friday 9:00 AM", "Friday 10:00 AM",  "Friday 5:00 PM"
+};
+
+    private string selectedTimeSlot;
+    private string Name { get; set; }
+    private string Email { get; set; }
+    private string Phone { get; set; }
+    private string optionone { get; set; }
+    private string optiontwo { get; set; }
+
+    private void SelectTimeSlot(string timeSlot)
+    {
+        selectedTimeSlot = timeSlot;
+    }
+
+    private async Task BookAppointment()
+    {
+        // Implement your booking logic here
+        await Task.Delay(1000); // Simulate booking delay
+        timeSlots.Remove(selectedTimeSlot);
+        ToastService.ShowSuccess("Appointment successfully booked!");
+
+        selectedTimeSlot = null;
+        Name = null;
+        Email = null;
+        Phone = null;
+        optionone = null;
+        optiontwo = null;
+
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
     }
 }
 #pragma warning restore 1591

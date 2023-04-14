@@ -1,7 +1,93 @@
 ﻿@page "/booking"
+@inject IToastService ToastService
 
-<h3>Booking</h3>
+<h3 class="home-title">Booking an Appoinment</h3>
+
+<h4 class="booking-heading">Available Time Slots: </h4>
+
+<div class="calendar">
+  @foreach (var timeSlot in timeSlots)
+{
+    <div class="cell @(selectedTimeSlot == timeSlot ? "selected" : "")" @onclick="() => SelectTimeSlot(timeSlot)">@timeSlot</div>
+},
+
+</div>
+@if (selectedTimeSlot != null)
+{
+    <form @onsubmit="BookAppointment">
+        <h2 class=" font-weight-bold center">Book Appointment for: <br> </h2>
+            <h2 class="booking-time">@selectedTimeSlot</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" @bind="@Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" @bind="@Email" required>
+        
+        <label for="phone">Device:</label>
+        <select id="optionone" required >
+         <option value="" disabled selected>-- Select a Device --</option>
+  <option value="iphone">Iphone</option>
+  <option value="samsung">Samsung</option>
+  <option value="huawei">Huawei</option>
+  <option value="other">Other</option>
+      </select>
+
+       <label for="repair">Repair Type:</label>
+        <select  id="optiontwo"required >
+             <option value="" disabled selected>-- Select a Repair --</option>
+         <option value="screen">Screen Replacement</option>
+  <option value="battery">Battery</option>
+  <option value="mic">Microphone</option> 
+  <option value="Charging Port">Charging Port</option>
+  <option value="water">Water Damage</option>
+  <option value="other">Other</option>
+      </select>
+
+
+        
+        @*<input type="hidden" id="timeslot" name="timeslot" @bind="@selectedTimeSlot" readonly required>*@
+        <div class="center">
+<button class="center" type="submit">Book Now</button>
+        </div>
+        
+    </form>
+}
 
 @code {
 
+    private List<string> timeSlots = new List<string> {
+    "Monday   9:00 AM", "Monday  10:00 AM", "Monday 11:00 AM", "Monday, 12:00 PM", "Monday 5:00 PM",
+  "Tuesday 11:00 AM", "Tuesday 2:00 PM", 
+    "Wednesday 2:00 PM", "Wednesday 3:00 PM", "Wednesday 4:00 PM", "Wednesday 5:00 PM",
+   "Thursday 4:00 PM", "Thursday 5:00 PM",
+    "Friday 9:00 AM", "Friday 10:00 AM",  "Friday 5:00 PM"
+};
+
+    private string selectedTimeSlot;
+    private string Name { get; set; }
+    private string Email { get; set; }
+    private string Phone { get; set; }
+    private string optionone { get; set; }
+    private string optiontwo { get; set; }
+
+    private void SelectTimeSlot(string timeSlot)
+    {
+        selectedTimeSlot = timeSlot;
+    }
+
+    private async Task BookAppointment()
+    {
+        // Implement your booking logic here
+        await Task.Delay(1000); // Simulate booking delay
+        timeSlots.Remove(selectedTimeSlot);
+        ToastService.ShowSuccess("Appointment successfully booked!");
+
+        selectedTimeSlot = null;
+        Name = null;
+        Email = null;
+        Phone = null;
+        optionone = null;
+        optiontwo = null;
+
+    }
 }
