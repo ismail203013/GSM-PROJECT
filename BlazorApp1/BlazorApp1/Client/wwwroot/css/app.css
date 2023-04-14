@@ -68,7 +68,8 @@ a, .btn-link {
     height: 500px;
     text-align: center;
     justify-content:center;
-    padding-top:70px;
+    vertical-align:central;
+    padding-top:140px;
 }
 
 .original-price {

@@ -14,7 +14,7 @@
     {
         
             <div class="media-img-wrapper">
-                <a href="/product/@product">
+                <a href="/product/@product.Id">
                    <img class="media-img" src="@product.Image" alt="@product.Title" />
                     </a>
             </div>
@@ -34,7 +34,7 @@
         @foreach (var product in ProductService.Products.TakeLast(1))
     {
             <div class="media-img-wrapper">
-                <a href="/product/@product">
+               <a href="/product/@product.Id">
                    <img class="media-img" src="@product.Image" alt="@product.Title" />
                     </a>
             </div>
@@ -56,7 +56,7 @@
         @foreach (var product in ProductService.Products.Skip(1).Take(1))
     {
           <div class="media-img-wrapper">
-                <a href="/product/@product">
+              <a href="/product/@product.Id">
                    <img class="media-img" src="@product.Image" alt="@product.Title" />
                     </a>
             </div>

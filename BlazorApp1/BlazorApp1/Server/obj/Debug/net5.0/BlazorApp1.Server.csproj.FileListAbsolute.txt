@@ -1,3 +1,11 @@
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.csproj.AssemblyReference.cache
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.AssemblyInfoInputs.cache
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.AssemblyInfo.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.csproj.CoreCompileInputs.cache
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.RazorAssemblyInfo.cache
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.RazorAssemblyInfo.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\BlazorApp1.Client.StaticWebAssets.xml
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\appsettings.json
@@ -68,14 +76,6 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\BlazorApp1.Shared.dll
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\BlazorApp1.Client.pdb
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\bin\Debug\net5.0\BlazorApp1.Shared.pdb
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.csproj.AssemblyReference.cache
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.AssemblyInfoInputs.cache
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.AssemblyInfo.cs
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.csproj.CoreCompileInputs.cache
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.RazorAssemblyInfo.cache
-C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\BlazorApp1.Server.RazorAssemblyInfo.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\scopedcss\bundle\BlazorApp1.Server.styles.css
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\staticwebassets\BlazorApp1.Server.StaticWebAssets.Manifest.cache
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Server\obj\Debug\net5.0\staticwebassets\BlazorApp1.Server.StaticWebAssets.xml

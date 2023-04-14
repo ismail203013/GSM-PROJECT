@@ -12,10 +12,20 @@
     </div>
     <div class= "media-body">
         <h2 class="mb-0">@product.Title</h2>
-        <p>
-            <ul>@product.Description</ul>
-            
-        </p>
+        <br />
+         <br />
+          <br />
+          <h4 class="heading text-left ">Description</h4>
+           <br />
+@if (!string.IsNullOrEmpty(product.Description))
+{
+    <ul class="text-left">
+        @foreach (var description in product.Description.Split(','))
+        {
+            <li>@description.Trim()</li>
+        }
+    </ul>
+}
         @if (product.Variants !=null && product.Variants.Count > 1 )
         {
             <div class="form-group">

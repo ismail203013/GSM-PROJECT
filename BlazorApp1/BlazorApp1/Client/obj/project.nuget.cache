@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nncGTLd1EfUSynK3wgF1IjM8ZL7SHYX35tlsKZuF6KdIxdSMlltzmC5Q+oHtfG9WHYBgW9auVScEBU+lPV14lw==",
+  "dgSpecHash": "TOFbJA3jqWrWE1KZ5q4k134icJciMX06p0NXkCmzFDsgCG3xLUl5/G2U/+LTFYml8UdRDoN+B5OCpjrzgGBY6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ismail\\OneDrive - Sheffield Hallam University\\Documents\\GitHub\\GSM-PROJECT\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.15\\microsoft.aspnetcore.components.web.5.0.15.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.15\\microsoft.aspnetcore.components.webassembly.5.0.15.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.15\\microsoft.aspnetcore.components.webassembly.devserver.5.0.15.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.15\\microsoft.aspnetcore.metadata.5.0.15.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -34,6 +35,7 @@
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.15\\microsoft.jsinterop.webassembly.5.0.15.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.15\\microsoft.netcore.app.runtime.browser-wasm.5.0.15.nupkg.sha512"
   ],
   "logs": []
