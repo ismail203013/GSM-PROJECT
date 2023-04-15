@@ -2,6 +2,12 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+    padding-bottom:210px;
 }
 
 a, .btn-link {
@@ -583,6 +589,54 @@ td:last-child {
     
 }
 
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 16px;
+    width:100%;
+    position: absolute;
+   
+    bottom:0px;
+
+    
+   
+}
+
+    footer h4 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+    footer a {
+        color: #fff;
+    }
+
+        footer a:hover {
+            color: #ccc;
+        }
+
+    footer p {
+        margin-bottom: 0;
+    }
+
+.list-inline li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+    .list-inline li:first-child {
+        margin-left: 0;
+    }
 
 
 
