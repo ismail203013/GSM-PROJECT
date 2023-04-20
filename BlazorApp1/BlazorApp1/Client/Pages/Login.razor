@@ -33,7 +33,7 @@
     <form  @onsubmit="UserReg">
     <div class="form-group">
         <label for="email">Email</label>
-        <input id="email"  class="form-control" Required />
+        <input id="email" type="email" class="form-control" Required />
     </div>
 
     <button type="submit" class="btn btn-primary">Register</button>
@@ -57,7 +57,8 @@
         await LocalStorage.SetItemAsync<string>("username", user.Username);
         await AuthStateProvider.GetAuthenticationStateAsync();
         ToastService.ShowSuccess("You have sucessfully logged in!");
-       // NavigationManager.NavigateTo("");
+        // NavigationManager.NavigateTo("");
+        
 
 
     }

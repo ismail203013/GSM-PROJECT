@@ -1,5 +1,6 @@
 ﻿@inject ICategoryService CategoryService
 @inject ILocalStorageService LocalStorage
+@inject IToastService ToastService
 @inject AuthenticationStateProvider AuthStateProvider
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
@@ -85,5 +86,6 @@
     {
         await LocalStorage.RemoveItemAsync("username");
         await AuthStateProvider.GetAuthenticationStateAsync();
+        ToastService.ShowSuccess("You have sucessfully logged out");
     }
 }

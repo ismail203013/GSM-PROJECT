@@ -15,7 +15,7 @@
 @if (selectedTimeSlot != null)
 {
     <form @onsubmit="BookAppointment">
-        <h2 class=" font-weight-bold center">Book Appointment for: <br> </h2>
+        <h2 class=" font-weight-bold center text-white">Book Appointment for: <br> </h2>
             <h2 class="booking-time">@selectedTimeSlot</h2>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" @bind="@Name" required>
