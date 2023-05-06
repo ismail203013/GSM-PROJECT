@@ -16,6 +16,7 @@ namespace BlazorApp1.Client.Services.CartService
 
         Task EmptyCart();
 
+        Task<string> Checkout();
     }
 
 

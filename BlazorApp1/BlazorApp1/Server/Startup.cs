@@ -1,4 +1,5 @@
 using BlazorApp1.Client.Services.FormService;
+using BlazorApp1.Client.Services.PaymentService;
 using BlazorApp1.Server.Data;
 using BlazorApp1.Server.Services.CategoryService;
 using BlazorApp1.Server.Services.ProductService;
@@ -37,6 +38,7 @@ namespace BlazorApp1.Server
             services.AddScoped<ICategoryService, CategoryService>(); //registering the category service
             services.AddScoped<IProductService, ProductService>(); //registering the category service
             services.AddScoped<IFormService, FormService>();
+            services.AddScoped<IPaymentService, PaymentService>();
             services.AddBlazoredToast();
         }
 

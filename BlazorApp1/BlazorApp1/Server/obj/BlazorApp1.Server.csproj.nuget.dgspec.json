@@ -77,6 +77,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -176,6 +180,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TOFbJA3jqWrWE1KZ5q4k134icJciMX06p0NXkCmzFDsgCG3xLUl5/G2U/+LTFYml8UdRDoN+B5OCpjrzgGBY6g==",
+  "dgSpecHash": "1MlJdbMZYCk3nxe3VtS7bLoIWmQUxPpA1rDMZwESTvDD3IuDI2x1f4D6Lnbzpy2ofSwYH58YxAL48RYvAv7BvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ismail\\OneDrive - Sheffield Hallam University\\Documents\\GitHub\\GSM-PROJECT\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
@@ -33,9 +33,20 @@
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.jsinterop\\5.0.15\\microsoft.jsinterop.5.0.15.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.15\\microsoft.jsinterop.webassembly.5.0.15.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\stripe.net\\41.15.0\\stripe.net.41.15.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ismail\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
     "C:\\Users\\Ismail\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.15\\microsoft.netcore.app.runtime.browser-wasm.5.0.15.nupkg.sha512"
   ],
   "logs": []

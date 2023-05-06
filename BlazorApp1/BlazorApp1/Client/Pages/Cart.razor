@@ -1,6 +1,7 @@
 ﻿@page "/cart"
 @inject ICartService CartService 
 @inject IToastService ToastService
+@inject NavigationManager NavigationManager
 
 @if(!orderPlaced)
 {
@@ -160,9 +161,10 @@ else
 
     {
 
-        orderPlaced = true;
+        string checkoutUrl = await CartService.Checkout();
+        NavigationManager.NavigateTo(checkoutUrl);
         await CartService.EmptyCart();
-        ToastService.ShowSuccess("Order Placed Sucessfully!");
+      
 
     }
 

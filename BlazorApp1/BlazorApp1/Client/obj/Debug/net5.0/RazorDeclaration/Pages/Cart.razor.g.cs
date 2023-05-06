@@ -154,7 +154,7 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 143 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Cart.razor"
+#line 144 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Cart.razor"
        
     List<CartItem> cartItems = new List<CartItem>();
     bool orderPlaced = false;
@@ -175,9 +175,10 @@ using Microsoft.AspNetCore.Components.Authorization;
 
     {
 
-        orderPlaced = true;
+        string checkoutUrl = await CartService.Checkout();
+        NavigationManager.NavigateTo(checkoutUrl);
         await CartService.EmptyCart();
-        ToastService.ShowSuccess("Order Placed Sucessfully!");
+      
 
     }
 
@@ -185,6 +186,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICartService CartService { get; set; }
     }
