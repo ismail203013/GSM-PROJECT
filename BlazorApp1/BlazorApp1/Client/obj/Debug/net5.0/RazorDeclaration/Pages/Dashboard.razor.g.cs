@@ -145,8 +145,8 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/login")]
-    public partial class Login : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/dashboard")]
+    public partial class Dashboard : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -154,44 +154,26 @@ using Microsoft.AspNetCore.Components.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Login.razor"
+#line 41 "C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Dashboard.razor"
        
-
-
-    public User user = new User();
-
-    private async void UserLogin()
+     
+     private async void logout()
 
     {
-
-        Console.WriteLine("LOGGED IN!!!");
-        await LocalStorage.SetItemAsync<string>("username", user.Username);
+        //NavigationManager.NavigateTo("dashboard");
+        await LocalStorage.RemoveItemAsync("username");
         await AuthStateProvider.GetAuthenticationStateAsync();
-        ToastService.ShowSuccess("You have sucessfully logged in!");
-        NavigationManager.NavigateTo("dashboard");
-        
-
-
+        ToastService.ShowSuccess("You have sucessfully logged out");
     }
 
-    private void UserReg()
-
-    {
-
-        
-        ToastService.ShowInfo("An email has been sent, please follow the instructions to complete registration !");
-      
-
-
-    }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILocalStorageService LocalStorage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IToastService ToastService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthStateProvider { get; set; }
     }
 }
 #pragma warning restore 1591

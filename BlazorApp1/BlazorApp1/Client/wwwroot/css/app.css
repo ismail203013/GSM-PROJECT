@@ -7,7 +7,7 @@ html, body {
 }
 
 .content {
-    padding-bottom:210px;
+    padding-bottom: 210px;
 }
 
 a, .btn-link {
@@ -642,7 +642,18 @@ footer {
         margin-left: 0;
     }
 
+.card {
+    margin-bottom: 20px;
+}
 
+.card-header {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: none;
+}
 
 
 @media (max-width: 1023.98px) {

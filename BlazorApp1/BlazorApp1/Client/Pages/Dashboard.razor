@@ -1,0 +1,52 @@
+﻿@page "/dashboard"
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IToastService ToastService
+@inject ILocalStorageService LocalStorage
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+    <Authorized>
+<div class="container">
+    <h1>My Account</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-header">
+                    My Account
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Profile</a></li>
+                    <li class="list-group-item"><a>Orders</a></li>
+                    <li class="list-group-item"><a>Shipping Addresses</a></li>
+                    <li class="list-group-item"><a>Payment Methods</a></li>
+                    <li class="list-group-item"><a @onclick="logout" href="login">Logout</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header">
+                    My Orders
+                </div>
+                <div class="card-body">
+                    <p>You have no orders yet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</Authorized>
+</AuthorizeView>
+@code {
+     
+     private async void logout()
+
+    {
+        //NavigationManager.NavigateTo("dashboard");
+        await LocalStorage.RemoveItemAsync("username");
+        await AuthStateProvider.GetAuthenticationStateAsync();
+        ToastService.ShowSuccess("You have sucessfully logged out");
+    }
+
+}

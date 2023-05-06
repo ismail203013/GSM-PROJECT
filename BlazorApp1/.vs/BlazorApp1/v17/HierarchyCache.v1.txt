@@ -3,12 +3,12 @@ i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.sln
 ++BlazorApp1.Server
 i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Server
 ++Connected Services 
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2248
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2249
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2269
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2267
 ++Dependencies
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2246
-i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:>1289
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2247
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2266
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:>1301
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2265
 ++Properties
 i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\properties\
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\properties\
@@ -32,8 +32,8 @@ i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield ha
 ++Startup.cs
 i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\server\startup.cs
 ++No service dependencies discovered
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2250
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2251
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2270
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2268
 ++Analyzers
 i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:analyzers
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:analyzers
@@ -109,18 +109,18 @@ i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield ha
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\microsoft.netcore.app
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\microsoft.netcore.app
 ++Microsoft.AspNetCore.Components.WebAssembly.Server (5.0.15)
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2291
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2284
 ++Microsoft.EntityFrameworkCore (5.0.1)
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2288
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2281
 ++Microsoft.EntityFrameworkCore.Design (5.0.1)
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2290
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2283
 ++Microsoft.EntityFrameworkCore.SqlServer (5.0.1)
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2289
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:>2282
 ++BlazorApp1.Client
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\bin\debug\net5.0\blazorapp1.client.dll
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\blazorapp1.client.csproj
 i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Client
 ++BlazorApp1.Shared
-i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\bin\debug\net5.0\blazorapp1.shared.dll
+i:{a05ddbaf-2e96-450f-bbe7-95a5468117dd}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\blazorapp1.shared.csproj
 i:{00000000-0000-0000-0000-000000000000}:BlazorApp1.Shared
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\bin\debug\net5.0\blazorapp1.shared.dll
 ++20230129211438_Initial.Designer.cs
@@ -157,6 +157,9 @@ i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield ha
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\category.cs
 ++Edition.cs
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\edition.cs
+++LoginAuth.cs
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\loginauth.cs
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\loginauth.cs
 ++Product.cs
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\product.cs
 ++ProductVariant.cs
@@ -164,8 +167,8 @@ i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield ha
 ++User.cs
 i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\shared\user.cs
 ++Microsoft.AspNetCore.Components.Authorization (5.0.3)
-i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:>2259
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2273
+i:{bcfa3a8d-dafc-4c4c-b6a1-ab5ba1db9990}:>2320
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2308
 ++wwwroot
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\
 ++css
@@ -195,6 +198,8 @@ i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield ha
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\cart.razor
 ++ContactUs.razor
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\contactus.razor
+++Dashboard.razor
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\dashboard.razor
 ++Home.razor
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\pages\home.razor
 ++Index.razor
@@ -223,8 +228,6 @@ i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield ha
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\_imports.razor
 ++App.razor
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\app.razor
-++LoginAuth.cs
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\loginauth.cs
 ++bootstrap.min.css
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\bootstrap\bootstrap.min.css
 ++font
@@ -278,15 +281,19 @@ i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdk
 ++ILLink.RoslynAnalyzer
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
 ++Blazored.LocalStorage (3.0.0)
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2269
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2303
 ++Blazored.Toast (3.0.0)
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2271
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2306
+++Blazored.Typeahead (4.6.0)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2310
 ++Microsoft.AspNetCore.Components.WebAssembly (5.0.15)
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2270
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2304
 ++Microsoft.AspNetCore.Components.WebAssembly.DevServer (5.0.15)
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2272
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2307
+++Microsoft.AspNetCore.Html.Abstractions (2.2.0)
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2305
 ++System.Net.Http.Json (5.0.0)
-i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2274
+i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:>2309
 ++bootstrap.min.css.map
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\bootstrap\bootstrap.min.css.map
 ++fonts
@@ -313,83 +320,47 @@ i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield ha
 i:{10ebcb62-3de7-47ff-9d99-aadab9b2c047}:c:\users\ismail\onedrive - sheffield hallam university\documents\github\gsm-project\blazorapp1\blazorapp1\client\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
 ++Script Documents
 ++localhost꞉5001/script.js
-++maps.googleapis.com/maps/api/js?key=&callback=initMap
 ++localhost꞉5001/_framework/blazor.webassembly.js
+++maps.googleapis.com/maps/api/js?key=&callback=initMap
 ++localhost꞉5001/_framework/aspnetcore-browser-refresh.js
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/common.js
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/util.js
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/log.js
+++localhost꞉44399/16cdd54c775940788dc85a9cf8f50d63/browserLink
+++localhost꞉5001/_content/Blazored.Typeahead/blazored-typeahead.js
 ++localhost꞉5001/_framework/dotnet.5.0.15.js
-++localhost꞉44399/121ce7c6e12b4580b057590476488501/browserLink
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\CartItem.cs
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\Category.cs
+++maps.googleapis.com/maps-api-v3/api/js/53/2/intl/en_gb/common.js
+++maps.googleapis.com/maps-api-v3/api/js/53/2/intl/en_gb/util.js
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\LoginAuth.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\Product.cs
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\Edition.cs
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\Category.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\ProductVariant.cs
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\User.cs
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Program.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\CartMenu.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\ProductList.razor
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\SurveyPrompt.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\MainLayout.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\NavMenu.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\AboutUs.razor
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Booking.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Cart.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ContactUs.razor
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Dashboard.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Home.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Index.razor
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\Edition.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Login.razor
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\Shop.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Services\ProductService\ProductService.cs
-++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Services\FormService\FormService.cs
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Program.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Services\CategoryService\CategoryService.cs
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Services\CartService\CartService.cs
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Pages\ProductDetails.razor
 ++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\LoginAuth.cs
-++<eval>/VM46947589
-++history/history.js
-++history/shared.rollup.js
-++history/strings.m.js
-++resources/js/assert_ts.js
-++resources/js/load_time_data.js
-++resources/js/cr.js
-++resources/js/promise_resolver.js
-++resources/polymer/v3_0/polymer/polymer_bundled.min.js
-++resources/mojo/mojo/public/js/bindings.js
-++history/lazy_load.js
-++settings/settings.js
-++settings/shared.rollup.js
-++settings/strings.m.js
-++settings/lazy_load.js
-++resources/mojo/skia/public/mojom/skcolor.mojom-webui.js
-++localhost꞉5001/_framework/dotnet.wasm
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/map.js
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/onion.js
-++maps.googleapis.com/maps/api/js/ViewportInfoService.GetViewportInfo?1m6=&1m2=&1d53.40854948615567=&2d-1.4498944444578354=&2m2=&1d53.40950608445683=&2d-1.447364087661225=&2u20=&4sen-GB=&5e0=&6sm@642000000=&7b0=&8e0=&12e1=&13shttps://localhost:5001/contact=&14b1=&callback=_xdc_._e8vtuq&token=63550
-++maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps://localhost:5001/shop=&5shttps://localhost:5001/shop=&7m1=&1e30=&8b0=&callback=_xdc_._hcdvsf&token=127432
-++maps.googleapis.com/maps/api/js/QuotaService.RecordEvent?1shttps://localhost:5001/shop=&7sdywvui=&10e1=&11b0=&callback=_xdc_._1c3dam&token=23724
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/controls.js
-++maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i20!2i520067!3i339585!1m4!1m3!1i20!2i520067!3i339586!1m4!1m3!1i20!2i520067!3i339587!1m4!1m3!1i20!2i520068!3i339585!1m4!1m3!1i20!2i520069!3i339585!1m4!1m3!1i20!2i520068!3i339586!1m4!1m3!1i20!2i520068!3i339587!1m4!1m3!1i20!2i520069!3i339586!1m4!1m3!1i20!2i520069!3i339587!2m3!1e0!2sm!3i642380829!3m12!2sen-GB!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!23i1379903&callback=_xdc_._wy6sob&token=47362
-++maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i20!2i520067!3i339585!1m4!1m3!1i20!2i520067!3i339586!1m4!1m3!1i20!2i520067!3i339587!1m4!1m3!1i20!2i520068!3i339585!1m4!1m3!1i20!2i520069!3i339585!1m4!1m3!1i20!2i520068!3i339586!1m4!1m3!1i20!2i520068!3i339587!1m4!1m3!1i20!2i520069!3i339586!1m4!1m3!1i20!2i520069!3i339587!2m3!1e0!2sm!3i642380829!3m17!2sen-GB!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e3!12m1!5b1!23i1379903&callback=_xdc_._oajeue&token=107266
-++maps.googleapis.com/maps-api-v3/api/js/52/8/intl/en_gb/stats.js
-++new-tab-page/new_tab_page.js
-++new-tab-page/shared.rollup.js
-++new-tab-page/strings.m.js
-++new-tab-page/new_tab_page.mojom-webui.js
-++resources/cr_components/omnibox/omnibox.mojom-webui.js
-++resources/cr_components/most_visited/most_visited.mojom-webui.js
-++resources/cr_components/color_change_listener/color_change_listener.mojom-webui.js
-++resources/mojo/url/mojom/url.mojom-webui.js
-++resources/mojo/mojo/public/mojom/base/big_buffer.mojom-webui.js
-++resources/mojo/mojo/public/mojom/base/time.mojom-webui.js
-++resources/mojo/mojo/public/mojom/base/string16.mojom-webui.js
-++resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js
-++new-tab-page/lazy_load.js
-++new-tab-page/chrome_cart.mojom-webui.js
-++new-tab-page/drive.mojom-webui.js
-++new-tab-page/feed.mojom-webui.js
-++new-tab-page/history_clusters.mojom-webui.js
-++new-tab-page/history_cluster_types.mojom-webui.js
-++new-tab-page/photos.mojom-webui.js
-++new-tab-page/recipes.mojom-webui.js
-++resources/cr_components/customize_themes/customize_themes.mojom-webui.js
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Shared\User.cs
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Services\FormService\FormService.cs
+++file://c:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\Shared\SurveyPrompt.razor
+++maps.googleapis.com/maps-api-v3/api/js/53/2/intl/en_gb/map.js
+++maps.googleapis.com/maps-api-v3/api/js/53/2/intl/en_gb/onion.js
+++maps.googleapis.com/maps/api/js/ViewportInfoService.GetViewportInfo?1m6=&1m2=&1d53.408528141331615=&2d-1.4500309072096924=&2m2=&1d53.40948721786671=&2d-1.4472155535098892=&2u20=&4sen-GB=&5e0=&6sm@645000000=&7b0=&8e0=&12e1=&13shttps://localhost:5001/contact=&14b1=&callback=_xdc_._vfco67&token=1605
+++maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i20!2i520067!3i339585!1m4!1m3!1i20!2i520067!3i339586!1m4!1m3!1i20!2i520067!3i339587!1m4!1m3!1i20!2i520068!3i339585!1m4!1m3!1i20!2i520069!3i339585!1m4!1m3!1i20!2i520068!3i339586!1m4!1m3!1i20!2i520068!3i339587!1m4!1m3!1i20!2i520069!3i339586!1m4!1m3!1i20!2i520069!3i339587!2m3!1e0!2sm!3i645384153!3m12!2sen-GB!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!23i1379903&callback=_xdc_._9nayoe&token=40507
+++maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps://localhost:5001/=&5shttps://localhost:5001/=&7m1=&1e30=&8b0=&callback=_xdc_._rq0j7l&token=101483
+++maps.googleapis.com/maps/api/js/QuotaService.RecordEvent?1shttps://localhost:5001/=&7sb8amum=&10e1=&11b0=&callback=_xdc_._du6595&token=129001
+++maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i20!2i520067!3i339585!1m4!1m3!1i20!2i520067!3i339586!1m4!1m3!1i20!2i520067!3i339587!1m4!1m3!1i20!2i520068!3i339585!1m4!1m3!1i20!2i520069!3i339585!1m4!1m3!1i20!2i520068!3i339586!1m4!1m3!1i20!2i520068!3i339587!1m4!1m3!1i20!2i520069!3i339586!1m4!1m3!1i20!2i520069!3i339587!2m3!1e0!2sm!3i645384153!3m17!2sen-GB!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e3!12m1!5b1!23i1379903&callback=_xdc_._62viu0&token=121735
+++maps.googleapis.com/maps-api-v3/api/js/53/2/intl/en_gb/controls.js

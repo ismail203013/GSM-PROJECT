@@ -10,6 +10,7 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Booking.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cart.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ContactUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Dashboard.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Home.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
@@ -442,6 +443,7 @@ C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJ
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Booking.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Cart.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\ContactUs.razor.g.cs
+C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Dashboard.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Home.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\Ismail\OneDrive - Sheffield Hallam University\Documents\GitHub\GSM-PROJECT\BlazorApp1\BlazorApp1\Client\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
